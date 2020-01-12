@@ -1,9 +1,6 @@
-
-Model Evaluation and Validation
-
-Project: Predicting The Customer Behaviour for an Audiobook Comapany
-
-Problem :
+# Model Evaluation and Validation
+# Project: Predicting The Customer Behaviour for an Audiobook Comapany
+# Problem :
 
 You are given data from an Audiobook app. Logically, it relates only to the audio versions of books. Each customer in the database has made a purchase at least once, that's why he/she is in the database. We want to create a machine learning algorithm based on our available data that can predict if a customer will buy again from the Audiobook company.
 
@@ -19,7 +16,9 @@ The task is simple: create a machine learning algorithm, which is able to predic
 
 This is a classification problem with two classes: won't buy and will buy, represented by 0s and 1s.
 
-Install
+
+#Install
+
 This project requires Python and the following Python libraries installed:
 
 NumPy
@@ -30,10 +29,11 @@ scikit-learn
 
 If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included.
 
-Code
+# Code
+  
 Template code is provided in the Audiobook_model.py file. You will also be required to use the included audiobook_data_pre_processor.py Python file and the Audiobooks_data.csv dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in audiobook_data_pre_processor.py is meant to be used to pre-process the data. 
 
-Run
+# Run
 In a terminal or command window, navigate to the top-level project directory and run one of the following commands:
 
 python audiobook_data_pre_processor.py
@@ -45,6 +45,6 @@ python Audiobook_model.py
 
 this command will run the model as well as test the model and give the total loss and total accuracy of the model
 
-Data
+# Data
 
 Audiobooks_data.csv summarizing the data. There are several variables: Customer ID, Book length in mins_avg (average of all purchases), Book length in minutes_sum (sum of all purchases), Price Paid_avg (average of all purchases), Price paid_sum (sum of all purchases), Review (a Boolean variable), Review (out of 10), Total minutes listened, Completion (from 0 to 1), Support requests (number), and Last visited minus purchase date (in days).
